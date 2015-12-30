@@ -303,3 +303,109 @@ body {
     height: 14px;
     width: 47px;
 }
+
+.fb_comment_container {
+    width: 494;
+    height: 32;
+    left: -13px;
+    margin-top: 20px;
+    border-radius: 0 0 2px 2px;
+    padding-bottom: 8px;
+    padding-top: 2px;
+    background-color: #f6f7f8;
+    margin: 0 12px;
+    padding: 4px 0;
+    position: absolute;
+}
+
+.comment_image {
+    width: 24px;
+    height: 24px;
+    float: left;
+    padding: 4px;
+    position: absolute;
+}
+
+.comment_img a {
+    position: absolute;
+    margin: 0;
+}
+
+.comment_img img {
+    position: absolute;
+}
+
+.comment_box {
+    border-color: #dcdee3;
+    min-height: 32px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    height: auto;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    padding-left: 5px;
+    background: #fff;
+    border: 1px solid #bdc7d8;
+    box-sizing: border-box;
+    cursor: text;
+    margin-left: 32px;
+    color: #141823;
+}
+
+.comment_content {
+    padding-right: 57px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    padding-left: 5px;
+    color: #141823;
+    width: 363px;
+    height: 16px;
+    position: absolute;
+}
+
+.comment_text {
+    width: 363;
+    height: 16;
+    position: relative;
+    height: inherit;
+    text-align: initial;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 12px;
+    line-height: 16px
+}
+
+#comment_attachments {
+    width: 61px;
+    height: 32px;
+    bottom: 0;
+    position: absolute;
+    right: 0;
+}
+
+.photo_attach {
+    width: 27px;
+    height: 32px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+
+#emoji_attach {
+    width: 34px;
+    height: 32px;
+    cursor: pointer;
+    float: left;
+    outline: 0;
+}
+
+#emoji_attach img {
+    width: 24px;
+    height: 24px;
+}
+
+.photo_attach img {
+    width: 24px;
+    height: 24px;
+}
